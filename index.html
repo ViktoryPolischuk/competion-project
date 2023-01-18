@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Путешествия на велосипеде</title>
 </head>
+
 <body class="root">
   <header class="header">
     <nav>
@@ -16,7 +18,7 @@
         <li><a class="header__link link" href="#">Тренировки</a></li>
       </ul>
     </nav>
-    <button class="header__menu-button" type="button" >
+    <button class="header__menu-button" type="button">
       <div class="header__burger-icon"></div>
     </button>
   </header>
@@ -34,12 +36,84 @@
         </div>
       </div>
       <div class="intro__image-container">
-        <div class="intro__placeholder"><img class="intro__sticky-image" src="./images/bike-cannondale.png" alt=""></div>
+        <div class="intro__placeholder">
+          <img class="intro__sticky-image" src="./images/bike-cannondale.png" alt="велосипед">
+        </div>
       </div>
     </section>
-  </main>
-  <footer>
+    <section class="bicycles">
+      <div class="bicycles__header">
+        <h2 class="bicycles__title">Велосипеды</h2>
+        <select class="bicycles__dropdown">
+          <option>Шоссе</option>
+          <option>Грэвел</option>
+          <option>TT</option>
+        </select>
 
+        <ul class="bicycles__type">
+          <li class="bicycles__type-active">
+            <a class="link" href="#">Шоссе</a>
+          </li>
+          <li>
+            <a class="bicycles__type-off" href="#">Грэвел</a>
+          </li>
+          <li>
+            <a class="bicycles__type-off" href="#">TT</a>
+          </li>
+        </ul>
+      </div>
+      <div class="bicycle">
+        <figure class="bicycle__card">
+          <div class="bicycle__placeholder">
+            <img сlass="bicycle__image" src="./images/bike-cervelo.jpg" alt="велосипед">
+          </div>
+          <figcaption class="bicycle__caption">
+            <a class="link" href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN"
+              target="blank">Cervelo Caledonia-5</a>
+          </figcaption>
+        </figure>
+        <figure class="bicycle__card">
+          <div class="bicycle__placeholder">
+            <img сlass="bicycle__image" src="./images/bike-cannodale-square.jpg" alt="велосипед">
+          </div>
+          <figcaption class="bicycle__caption">
+            <a class="link"
+              href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
+              target="blank">Cannondale Systemsix Himod</a>
+          </figcaption>
+        </figure>
+        <figure class="bicycle__card">
+          <div class="bicycle__placeholder">
+            <img сlass="bicycle__image" src="./images/bike-trek.jpg" alt="велосипед">
+          </div>
+          <figcaption class="bicycle__caption">
+            <a class="link"
+              href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF"
+              target="blank">Trek Domane SL-7</a>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="training">
+      <h2 class="training__title">Тренировки</h2>
+      <img class="training__image" src="./images/training-road.jpg" alt="дорога в лесу">
+      <p class="training__text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать эти
+        тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.</p>
+      <ul class="training__links">
+        <li>
+          <a class="link" href="https://www.strava.com" target="blank">Strava</a>
+        </li>
+        <li>
+          <a class="link" href="https://www.komoot.com" target="blank">Komoot</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="footer__text">Подпишитесь на рассылку —</p>
+    <input class="footer__input" type="email" placeholder="Ваш e-mail">
+    <p class="footer__copyright">&copy; Road Club 2021</p>
   </footer>
-  </body>
+</body>
+
 </html>

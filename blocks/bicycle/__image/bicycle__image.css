@@ -1,0 +1,11 @@
+.bicycle__image {
+  border-radius: 20px;
+  width: 100%;
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .bicycle__image {
+    max-width: 255px;
+  }
+}
