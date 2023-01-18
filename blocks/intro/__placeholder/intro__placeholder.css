@@ -9,3 +9,9 @@
   box-sizing: border-box;
   font-size: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .intro__placeholder {
+    width: 82.4%;
+  }
+}

@@ -1,0 +1,12 @@
+.quote__text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  .quote__text-container {
+    padding-left: 0;
+  }
+}

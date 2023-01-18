@@ -1,0 +1,13 @@
+.highway__rectangle {
+  position: absolute;
+  left: 0;
+  bottom: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .highway__rectangle {
+    bottom: 14px;
+    width: 70px;
+    height: 28px;
+  }
+}

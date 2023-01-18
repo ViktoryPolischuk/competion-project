@@ -8,7 +8,6 @@
 @import url(../blocks/header/__menu-button/header__menu-button.css);
 @import url(../blocks/header/__burger-icon/header__burger-icon.css);
 @import url(../blocks/intro/intro.css);
-@import url(../blocks/intro/__description/intro__description.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__more-button/intro__more-button.css);
@@ -16,8 +15,32 @@
 @import url(../blocks/intro/__caption/intro__caption.css);
 @import url(../blocks/intro/__line/intro__line.css);
 @import url(../blocks/intro/__image-container/intro__image-container.css);
+@import url(../blocks/intro/__image/intro__image.css);
+@import url(../blocks/intro/__sticky-container/intro__sticky-container.css);
 @import url(../blocks/intro/__placeholder/intro__placeholder.css);
 @import url(../blocks/intro/__sticky-image/intro__sticky-image.css);
+@import url(../blocks/quote/quote.css);
+@import url(../blocks/quote/__line/quote__line.css);
+@import url(../blocks/quote/__text-container/quote__text-container.css);
+@import url(../blocks/quote/__image/quote__image.css);
+@import url(../blocks/quote/__text/quote__text.css);
+@import url(../blocks/quote/__info/quote__info.css);
+@import url(../blocks/quote/__author/quote__author.css);
+@import url(../blocks/quote/__job/quote__job.css);
+@import url(../blocks/highway/highway.css);
+@import url(../blocks/highway/__content/highway__content.css);
+@import url(../blocks/highway/__line/highway__line.css);
+@import url(../blocks/highway/__title/highway__title.css);
+@import url(../blocks/highway/__text/highway__text.css);
+@import url(../blocks/highway/__gallery/highway__gallery.css);
+@import url(../blocks/highway/__image-container/highway__image-container.css);
+@import url(../blocks/highway/__image/highway__image.css);
+@import url(../blocks/highway/__rectangle/highway__rectangle.css);
+@import url(../blocks/highway/__way-icon/highway__way-icon.css);
+@import url(../blocks/highway/__button-arrows/highway__button-arrows.css);
+@import url(../blocks/highway/__button-arrow/highway__button-arrow.css);
+@import url(../blocks/highway/__button-arrow/_left/highway__button-arrow_left.css);
+@import url(../blocks/highway/__button-arrow/_right/highway__button-arrow_right.css);
 
 
 @import url(../blocks/bicycles/bicycles.css);

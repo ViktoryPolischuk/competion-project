@@ -1,0 +1,13 @@
+.intro__sticky-container {
+  position: absolute;
+  top: 347px;
+  bottom: 79px;
+  left: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .intro__sticky-container {
+    top: 151px;
+  }
+}
