@@ -1,0 +1,15 @@
+.intro {
+  position: relative;
+  padding-left: 120px;
+  background-image: url(../../images/forest-road.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 42.4% auto;
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    background-position: center;
+    background-size: 254px auto;
+  }
+}

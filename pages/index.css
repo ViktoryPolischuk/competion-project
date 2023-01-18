@@ -7,3 +7,15 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__menu-button/header__menu-button.css);
 @import url(../blocks/header/__burger-icon/header__burger-icon.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__description/intro__description.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__more-button/intro__more-button.css);
+@import url(../blocks/intro/__caption-container/intro__caption-container.css);
+@import url(../blocks/intro/__caption/intro__caption.css);
+@import url(../blocks/intro/__line/intro__line.css);
+@import url(../blocks/intro/__image-container/intro__image-container.css);
+@import url(../blocks/intro/__placeholder/intro__placeholder.css);
+@import url(../blocks/intro/__sticky-image/intro__sticky-image.css);
+
