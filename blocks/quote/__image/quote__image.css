@@ -1,5 +1,6 @@
 .quote__image {
   width: 54%;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 767px) {

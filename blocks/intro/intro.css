@@ -1,15 +1,16 @@
 .intro {
-  position: relative;
   padding-left: 120px;
-  background-image: url(../../images/forest-road.jpg);
-  background-position: right bottom;
-  background-repeat: no-repeat;
-  background-size: 42.4% auto;
+  display: grid;
+  grid-template-columns: auto 61.4%;
+  row-gap: 50px;
+  column-gap: 50px;
 }
 
 @media screen and (max-width: 767px) {
   .intro {
-    background-position: center;
-    background-size: 254px auto;
+    padding-left: 18px;
+    padding-right: 18px;
+    grid-template-columns: auto;
+    row-gap: 40px;
   }
 }

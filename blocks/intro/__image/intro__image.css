@@ -1,0 +1,14 @@
+.intro__image {
+  object-fit: cover;
+  margin-top: 20px;
+  margin-left: 24.7%;
+  width: 75.3%;
+}
+
+@media screen and (max-width: 767px) {
+  .intro__image {
+    margin-top: 0;
+    margin-left: 10.6%;
+    width: 89.4%;
+  }
+}
