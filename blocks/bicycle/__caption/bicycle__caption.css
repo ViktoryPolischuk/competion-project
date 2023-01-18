@@ -1,0 +1,17 @@
+.bicycle__caption {
+  margin: 22px 0 0;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 122%;
+}
+
+@media screen and (max-width: 767px) {
+  .bicycle__caption {
+    margin: 0;
+    position: absolute;
+    bottom: 30px;
+    left: 160px;
+    color: rgba(21,21,21);
+  }
+}

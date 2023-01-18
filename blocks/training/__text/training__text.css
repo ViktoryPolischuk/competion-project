@@ -1,0 +1,27 @@
+.training__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #E5E5E5;
+  opacity: 0.7;
+  margin: 0;
+}
+
+@media screen and (max-width: 1098px) {
+  .training__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .training__text {
+    line-height: 150%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .training__text {
+    font-size: 12px;
+  }
+}

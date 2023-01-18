@@ -1,0 +1,15 @@
+.bicycle__card {
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .bicycle__card {
+    display: none;
+  }
+  .bicycle__card:first-child {
+    display: block;
+  }
+}
+
+
+

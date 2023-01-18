@@ -1,0 +1,11 @@
+.bicycles {
+  margin: 0 auto 210px;
+  max-width: 1200px;
+  position: relative;
+}
+
+@media screen and (max-width: 900px) {
+  .bicycles {
+    margin: 0 auto 150px;
+  }
+}
