@@ -13,6 +13,12 @@
   letter-spacing: 1px;
 }
 
+.intro__more-button:hover {
+  opacity: 0.65;
+  cursor: pointer;
+  transition: opacity .2s linear;
+}
+
 @media screen and (max-width: 767px) {
   .intro__more-button {
     font-size: 13px;
