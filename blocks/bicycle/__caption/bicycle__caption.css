@@ -8,9 +8,9 @@
 
 @media screen and (max-width: 767px) {
   .bicycle__caption {
-    max-width: 380px;
     text-align: center;
     font-size: 14px;
     line-height: 129%;
+    margin: 0;
   }
 }

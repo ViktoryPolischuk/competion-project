@@ -5,9 +5,3 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-
-@media screen and (max-width: 1210px) {
-  .bicycle {
-    margin: 20px 18px;
-  }
-}

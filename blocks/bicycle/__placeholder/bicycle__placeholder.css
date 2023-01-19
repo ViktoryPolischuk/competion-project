@@ -5,3 +5,9 @@
   box-sizing: border-box;
   font-size: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .bicycle__placeholder {
+    padding: 0;
+  }
+}
