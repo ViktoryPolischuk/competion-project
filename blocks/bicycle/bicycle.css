@@ -1,15 +1,13 @@
 .bicycle {
   display: flex;
-  justify-content: space-between;
   gap: 30px;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1210px) {
   .bicycle {
-    flex-wrap: wrap;
-    justify-content: center;
     margin: 20px 18px;
   }
 }
-
-

@@ -1,0 +1,12 @@
+.dots {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .dots {
+    display: block;
+    max-width: 727px;
+    margin: 20px auto 70px;
+    text-align: center;
+  }
+}

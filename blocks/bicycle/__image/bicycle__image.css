@@ -1,7 +1,6 @@
 .bicycle__image {
-  border-radius: 20px;
-  width: 100%;
   display: block;
+  width: 100%;
 }
 
 @media screen and (max-width: 767px) {
