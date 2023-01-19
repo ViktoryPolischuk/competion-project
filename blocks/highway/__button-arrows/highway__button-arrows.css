@@ -1,0 +1,17 @@
+.highway__button-arrows {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  grid-column: 1/3;
+  grid-row: 4/5;
+}
+
+@media screen and (max-width: 767px) {
+  .highway__button-arrows {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 0;
+    justify-content: end;
+    align-items: center;
+  }
+}

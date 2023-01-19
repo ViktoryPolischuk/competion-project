@@ -1,0 +1,9 @@
+.highway__image-container {
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .highway__image-container:not(:first-of-type) {
+    display: none;
+  }
+}

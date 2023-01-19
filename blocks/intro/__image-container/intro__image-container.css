@@ -1,0 +1,14 @@
+.intro__image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  grid-column: 2/3;
+  grid-row: 1/5;
+}
+
+@media screen and (max-width: 767px) {
+  .intro__image-container {
+    grid-column: auto;
+    grid-row: auto;
+  }
+}

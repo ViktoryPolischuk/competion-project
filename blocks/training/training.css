@@ -1,0 +1,30 @@
+.training {
+  margin: 0 auto;
+  padding: 0 120px 120px;
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: repeat(3, auto);
+  max-width: 1200px;
+  gap: 0 160px;
+}
+
+@media screen and (max-width: 1296px) {
+  .training {
+    gap: 0 60px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .training {
+    gap: 40px;
+    grid-template-columns: 1fr;
+    max-width: 784px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .training {
+    padding: 0 18px 60px;
+  }
+}

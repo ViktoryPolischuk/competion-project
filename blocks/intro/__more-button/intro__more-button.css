@@ -1,0 +1,23 @@
+.intro__more-button {
+  display: inline-block;
+  background-color: #24B47E;
+  border: none;
+  padding: 0;
+  border-radius: 4px;
+  width: 180px;
+  height: 50px;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 767px) {
+  .intro__more-button {
+    font-size: 13px;
+    line-height: 1.46;
+    width: 284px;
+    height: 46px;
+  }
+}

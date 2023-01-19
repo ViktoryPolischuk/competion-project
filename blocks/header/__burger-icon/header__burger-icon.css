@@ -1,0 +1,26 @@
+.header__burger-icon {
+  width: 22px;
+  height: 3px;
+  background-color: #FFFFFF;
+  position: relative;
+}
+
+.header__burger-icon::before {
+  width: 22px;
+  height: 3px;
+  background-color: #FFFFFF;
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 0;
+}
+
+.header__burger-icon::after {
+  width: 22px;
+  height: 3px;
+  background-color: #FFFFFF;
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+}

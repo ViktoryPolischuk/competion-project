@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+  .bicycle__link {
+    color: rgba(21, 21, 21);
+  }
+}

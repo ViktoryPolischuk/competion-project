@@ -1,0 +1,16 @@
+.training__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 109%;
+  letter-spacing: -0.5px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+  .training__title {
+    font-size: 32px;
+    line-height: 125%;
+  }
+}

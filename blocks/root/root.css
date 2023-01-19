@@ -10,9 +10,11 @@
   max-width: 1440px;
   min-width: 320px;
   margin: 0 auto;
+  padding-top: 74px;
 }
 
 @supports (font-variation-settings: normal) {
-  .root { font-family: 'Inter var', sans-serif;
+  .root {
+    font-family: 'Inter var', sans-serif;
   }
 }

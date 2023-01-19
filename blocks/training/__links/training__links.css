@@ -1,0 +1,25 @@
+.training__links {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  grid-row: 3/3;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  align-items: flex-end;
+  font-size: 18px;
+  line-height: 156%;
+}
+
+@media screen and (max-width: 1024px) {
+  .training__links {
+    grid-row: 4/4;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .training__links {
+    font-size: 14px;
+    line-height: 143%;
+  }
+}

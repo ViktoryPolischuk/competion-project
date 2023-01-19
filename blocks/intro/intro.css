@@ -1,0 +1,16 @@
+.intro {
+  padding-left: 120px;
+  display: grid;
+  grid-template-columns: auto 61.4%;
+  row-gap: 50px;
+  column-gap: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    padding-left: 18px;
+    padding-right: 18px;
+    grid-template-columns: auto;
+    row-gap: 40px;
+  }
+}

@@ -1,0 +1,17 @@
+.intro__placeholder {
+  background-color: #F4F4F4;
+  border-radius: 20px;
+  width: 54.3%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  font-size: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .intro__placeholder {
+    width: 82.4%;
+  }
+}
