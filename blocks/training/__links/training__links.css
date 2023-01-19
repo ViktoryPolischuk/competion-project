@@ -11,17 +11,15 @@
   line-height: 156%;
 }
 
-@media screen and (max-width: 900px) {
-  .training__links {
-    line-height: 143%;
-    font-size: 14px;
-  }
-}
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
   .training__links {
     grid-row: 4/4;
-    font-size: 14px;
-    line-height: 143%;
   }
 }
 
+@media screen and (max-width: 767px) {
+  .training__links {
+    font-size: 14px;
+    line-height: 143%;
+  }
+}

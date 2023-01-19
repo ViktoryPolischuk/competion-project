@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 767px) {
   .training__title {
     font-size: 32px;
     line-height: 125%;

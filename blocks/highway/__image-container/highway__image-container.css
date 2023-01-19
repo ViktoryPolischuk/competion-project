@@ -5,12 +5,5 @@
 @media screen and (max-width: 767px) {
   .highway__image-container:not(:first-of-type) {
     display: none;
-   }
-
-  /* .highway__image-container {
-    grid-column-start: 1;
-  grid-column-end: span 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  } */
- }
+  }
+}

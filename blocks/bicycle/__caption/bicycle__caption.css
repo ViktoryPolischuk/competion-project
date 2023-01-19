@@ -8,10 +8,7 @@
 
 @media screen and (max-width: 767px) {
   .bicycle__caption {
-    margin: 0;
-    position: absolute;
-    bottom: 30px;
-    left: 160px;
-    color: rgba(21,21,21);
+    max-width: 380px;
+    text-align: center;
   }
 }
