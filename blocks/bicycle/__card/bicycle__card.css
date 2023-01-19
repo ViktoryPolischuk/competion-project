@@ -9,11 +9,17 @@
     border-radius: 20px;
     box-sizing: border-box;
     font-size: 0;
-    padding: 15px 15px 37px 15px;
-    width: 60%;
+    padding: 15px 15px 17px 15px;
+    width: 70%
   }
 
   .bicycle__card:first-child {
     display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bicycle__card {
+    width: 96%
   }
 }

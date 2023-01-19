@@ -10,5 +10,7 @@
   .bicycle__caption {
     max-width: 380px;
     text-align: center;
+    font-size: 14px;
+    line-height: 129%;
   }
 }
